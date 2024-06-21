@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    background-color: red;
+    color: #fff;
+    width: 50px;
+    height: 50Px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.colum2,
+.colum1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.colum2 {
+    flex-direction: column-reverse;
+}
+
+.colum3,
+.colum4 {
+    display: flex;
+
+}
+
+.colum4 {
+    flex-direction: row-reverse;
+}
